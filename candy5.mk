@@ -1,5 +1,5 @@
 ## Specify phone tech before including full_phone
-$(call inherit-product, vendor/slim/config/gsm.mk)
+$(call inherit-product, vendor/candy5/config/gsm.mk)
 
 # Release name
 PRODUCT_RELEASE_NAME := shamu
@@ -8,18 +8,18 @@ PRODUCT_RELEASE_NAME := shamu
 TARGET_SCREEN_HEIGHT := 1920
 TARGET_SCREEN_WIDTH := 1080
 
-# Inherit some common Slim stuff.
-$(call inherit-product, vendor/slim/config/common_full_phone.mk)
+# Inherit some common Candy stuff.
+$(call inherit-product, vendor/candy5/config/common_full_phone.mk)
 
 # Enhanced NFC
-$(call inherit-product, vendor/slim/config/nfc_enhanced.mk)
+$(call inherit-product, vendor/candy5/config/nfc_enhanced.mk)
 
 # Inherit device configuration
 $(call inherit-product, device/motorola/shamu/aosp_shamu.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := shamu
-PRODUCT_NAME := slim_shamu
+PRODUCT_NAME := candy5_shamu
 PRODUCT_BRAND := Google
 PRODUCT_MODEL := Nexus 6
 PRODUCT_MANUFACTURER := motorola
