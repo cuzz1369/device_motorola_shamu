@@ -73,7 +73,7 @@ TARGET_BOOTLOADER_BOARD_NAME := shamu
 TARGET_NO_RPC := true
 
 # Toolchains and Optimizations
-KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-4.9-sm/bin
+KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-4.8-sm/bin
 KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
 SUGARRUSH=true
 KRAIT_TUNINGS=true
